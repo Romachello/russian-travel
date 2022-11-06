@@ -1,0 +1,14 @@
+.place{
+   max-width: 984px;
+   display: grid;
+   grid-template: max-content 460px / 460px 484px;
+   column-gap: 40px;
+   margin: 0 auto;
+   padding-top: 80px;
+}
+
+@media (max-width:320px) {
+   .place{
+      grid-template: repeat(4, min-content) / 100%;
+   }
+}
