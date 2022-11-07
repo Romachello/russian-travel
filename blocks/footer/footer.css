@@ -3,21 +3,30 @@
   padding: 92px 48px 24px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2 , 50%);
+  grid-template-columns: repeat(2, 50%);
   text-decoration: none;
 }
 
 @media (max-width: 984px) {
   .footer {
     padding: 88px 24px 24px;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 677px) {
   .footer {
     margin: 0;
+    margin-bottom: 0;
     max-width: 186px;
     padding: 64px 16px 24px;
     grid-template-columns: max-content;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
   }
 }

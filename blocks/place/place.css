@@ -6,9 +6,19 @@
    margin: 0 auto;
    padding-top: 80px;
 }
-
+@media (max-width:1024px) {
+   .place{
+      grid-template-columns: 440px 456px;
+   }
+}
+@media (max-width:768px) {
+   .place{
+      grid-template-columns: 340px 352px;
+   }
+}
 @media (max-width:320px) {
    .place{
-      grid-template: repeat(4, min-content) / 100%;
+      display: flex;
+      flex-direction: column;
    }
 }

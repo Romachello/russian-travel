@@ -1,10 +1,10 @@
-.footer__link {  
+.footer__link {
   line-height: 1.12;
   margin-right: 18px;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 
 .footer__link:last-child {

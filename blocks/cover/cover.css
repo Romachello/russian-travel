@@ -1,11 +1,11 @@
 .cover {
-  max-width: 1184px; 
+  max-width: 1184px;
   max-height: 740px;
-  margin: 92px auto 0;
+  margin: 0 auto;
   text-align: center;
 }
 
-@media (max-width: 1124px) {
+@media (max-width: 1024px) {
   .cover {
     margin-right: 0;
     margin-left: 0;
