@@ -1,12 +1,6 @@
 .places{
-   max-width: 984px;
+   width: 100%;
    display: flex;
+   justify-content: center;
    flex-direction: column;
-   padding-top: 92px;
-}
-@media (max-width: 768px) {
-   .places{
-      max-width: 720px;
-      width: max-content;
-   }
 }

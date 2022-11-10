@@ -1,14 +1,13 @@
 .lead__title{
-   overflow: hidden;
-   box-sizing: border-box;
-   font-family: 'Inter';
    max-width: 720px;
-   max-height: 200px;
+   box-sizing: border-box;
+   font-family: 'Inter', Arial, sans-serif;
    font-weight: 900;
    font-size: 96px;
    line-height: 100px;
    text-align: center;
    margin: 0 auto;
+   word-wrap: break-word;
 }
 @media (max-width: 320px){
    .lead__title{
