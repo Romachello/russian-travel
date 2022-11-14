@@ -1,5 +1,8 @@
 # Проект: Путешествие по России
 
+###
+[Ссылка на github]: (https://students-yandex.github.io/russian-travel/index.html)
+
 ### Обзор
 * Russian-travel
 * Figma
