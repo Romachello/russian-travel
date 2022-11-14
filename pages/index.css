@@ -30,7 +30,7 @@
 @import url('../blocks/intro/__subtitle/intro__subtitle.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__link/intro__link.css');
-@import url('../blocks/intro/__link/__span-accent/intro__link__span-accent.css');
+@import url('../blocks/intro/__span-accent/intro__span-accent.css');
 
 /*Блок photo-grid*/
 @import url('../blocks/photo-grid/photo-grid.css');
