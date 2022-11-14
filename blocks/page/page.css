@@ -6,20 +6,4 @@
    background-color: #2A2C2F;
    color: #FFF;
    vertical-align: baseline;
-   overflow-x:hidden;
-}
-@media (max-width: 1024px){
-   .header{
-      max-width: 1024px;
-   }
-}
-@media (max-width: 768px){
-   .header{
-      max-width: 768px;
-   }
-}
-@media (max-width: 320px){
-   .header{
-      max-width: 320;
-   }
 }

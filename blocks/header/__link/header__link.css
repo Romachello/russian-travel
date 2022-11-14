@@ -6,6 +6,9 @@
    text-decoration: none;
    color: #FFF;
 }
+.header__link:hover{
+   text-decoration: underline;
+}
 @media (max-width: 320px){
    .header__link{
       font-size: 18px;

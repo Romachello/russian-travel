@@ -1,22 +1,23 @@
 .footer__links {
+  font-family: 'Inter', Arial, sans-serif;
   display: flex;
   list-style: none;
   padding: 0;
-  align-items: center;
-  font-family: 'Inter';
+  align-items: center;   
+  font-weight: 400;
 }
 
 @media (max-width: 677px) {
   .footer__links {
     flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 @media (max-width: 320px) {
   .footer__links {
     max-width: 50%;
-    font-family: 'Inter';
     font-size: 24px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;

@@ -1,5 +1,6 @@
 .intro__list {
-   font-family: "Inter";
+   max-width: 690px;
+   font-family: 'Inter', Arial, sans-serif;
    font-size: 12px;
    line-height: 18px;
    font-style: normal;

@@ -3,24 +3,20 @@
    color: #FFF;
    max-width: 984px;
    margin: 0 auto;
-   margin-bottom: 92px;
 }
 @media (max-width: 1024px){
    .lead{
       max-width: 928px;
-      max-height: 962px;
    }
 }
 @media (max-width: 768px){
    .lead{
       max-width: 768px;
-      max-height: 862px;
    }
 }
 @media (max-width: 320px){
    .lead{
       max-width: 320px;
-      max-height: 406px;
       margin-bottom: 64px;
    }
 }
