@@ -11,3 +11,8 @@
     margin-left: 0;
   }
 }
+@media (max-width: 320px){
+  .places{
+     padding-top: 0;
+  }
+}

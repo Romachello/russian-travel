@@ -5,7 +5,7 @@
    grid-template: 1fr 460px / 460px 1fr;
    column-gap: 40px;
    margin: 0 auto;
-   padding-top: 92px;
+   padding-top: 80px;
 }
 @media (max-width:1024px) {
    .place{
@@ -15,6 +15,10 @@
 @media (max-width:768px) {
    .place{
       grid-template: 1fr 340px / 340px 1fr;
+      
+   }
+   .place{
+      margin-bottom: 93px;
    }
 }
 @media (max-width:320px) {

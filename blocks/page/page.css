@@ -7,3 +7,9 @@
    color: #FFF;
    vertical-align: baseline;
 }
+
+@media (max-width: 320px){
+   .page{
+      margin: 0;
+   }
+}
