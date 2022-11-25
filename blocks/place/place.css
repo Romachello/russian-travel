@@ -15,9 +15,6 @@
 @media (max-width:768px) {
    .place{
       grid-template: 1fr 340px / 340px 1fr;
-      
-   }
-   .place{
       margin-bottom: 93px;
    }
 }
