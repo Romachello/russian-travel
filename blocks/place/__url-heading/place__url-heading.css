@@ -9,9 +9,5 @@
    margin: 0;
    margin-bottom: 12px;
    text-transform: uppercase;
-}
-@media (max-width: 320px) {
-   .place__url-heading {
-      padding: 0 16px;
-   }
+
 }

@@ -4,14 +4,24 @@
    margin: 0 auto;
    margin-bottom: 92px;
 }
+@media (max-width: 1024px){
+   .intro{
+      max-width: 928px;
+      padding-left: calc(48*100/1024%);
+   }
+}
 @media (max-width: 768px){
    .intro{
+      max-width: 720px;
       padding-top: 88px;
       margin-bottom: 88px;
+      margin-left: 24px;
    }
 }
 @media (max-width: 320px){
    .intro{
-      padding: 0 16px;
+      margin-bottom: 64px;
+      margin-left: 16px;
+      padding-top: 0;
    }
 }

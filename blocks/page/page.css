@@ -1,8 +1,7 @@
 .page{
    justify-content: center;
-   outline: none;
    padding: 0;
-   margin: 0 auto;
+   margin: 0;
    background-color: #2A2C2F;
    color: #FFF;
    vertical-align: baseline;
@@ -10,6 +9,6 @@
 
 @media (max-width: 320px){
    .page{
-      margin: 0;
+      width: 100%;
    }
 }

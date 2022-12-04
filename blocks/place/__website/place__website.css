@@ -7,17 +7,16 @@
    padding-bottom: 48px;
 }
 @media (max-width: 768px) {
-   .place__title {
+   .place__website {
       font-size: 42px;
       line-height: 46px;
    }
 }
 @media (max-width: 320px) {
-   .place__title {
+   .place__website {
       font-size: 32px;
       line-height: 35px;
       letter-spacing: 0em;
-      text-align: left;
-      padding: 0 16px 48px;
+      padding: 0 16px 32px;
    }
 }

@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@media (max-width: 677px) {
+@media (max-width: 710px) {
   .footer__copyright {    
     line-height: 1;
     padding-top: 48px;

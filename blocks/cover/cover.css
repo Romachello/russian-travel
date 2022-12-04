@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  padding-top: 92px;
+  padding-top: 66px;
   margin: 0 auto;
   text-align: center;
 }
@@ -9,10 +9,5 @@
   .cover {
     margin-right: 0;
     margin-left: 0;
-  }
-}
-@media (max-width: 320px){
-  .places{
-     padding-top: 0;
   }
 }
