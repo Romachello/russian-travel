@@ -1,4 +1,5 @@
 .place {
+   max-width: 984px;
    box-sizing: border-box;
    display: grid;
    justify-content: center;
@@ -19,6 +20,8 @@
 }
 @media (max-width: 768px) {
    .place {
+      margin-bottom: 73px;
+      max-width: 720px;
       grid-template-columns: 340px 1fr;
       column-gap: 28px;
    }
@@ -43,6 +46,7 @@
 }
 @media (max-width: 480px) {
    .place {
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       grid-template-columns: 1fr;
