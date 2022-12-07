@@ -9,5 +9,20 @@
    margin: 0;
    margin-bottom: 12px;
    text-transform: uppercase;
-
 }
+@media (max-width: 1024px) {
+   .place__url-heading {
+      margin-right: 48px;
+   }
+}
+@media (max-width:768px) {
+   .place__url-heading{
+      margin-right: 24px;
+   }
+}  
+@media (max-width: 480px) {
+   .place__url-heading{
+      margin-right: 16px;
+      margin-left: 16px;
+   }
+} 

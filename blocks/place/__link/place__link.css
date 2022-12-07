@@ -1,6 +1,6 @@
 .place__link {
    box-sizing: border-box;
-   font-family: 'Inter', Arial, sans-serif;
+   font-family: "Inter", Arial, sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 18px;
@@ -8,6 +8,23 @@
    color: #ffffff;
    margin: 0;
 }
-.place__link:hover{
+.place__link:hover {
    text-decoration: underline;
+}
+@media (max-width: 1024px) {
+   .place__link {
+      margin-right: 48px;
+   }
+}
+@media (max-width: 768px) {
+   .place__link {
+      margin-right: 24px;
+   }
+}
+
+@media (max-width: 480px) {
+   .place__link {
+      margin-right: 16px;
+      margin-left: 16px;
+   }
 }
